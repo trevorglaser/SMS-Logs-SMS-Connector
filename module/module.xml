@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+    <rawname>smslog</rawname>
+    <name>SMS Event Logging</name>
+    <version>16.0.1</version>
+    <publisher>FreePBX Community</publisher>
+    <license>GPL</license>
+    <licenselink>http://www.gnu.org/licenses/gpl.txt</licenselink>
+    <changelog>
+        * 16.0.1 Initial release - SMS Event Logging module
+    </changelog>
+    <description>
+        SMS Event Logging provides detailed records of all SMS messages
+        sent and received through the FreePBX system. Includes filtering,
+        searching, export, and per-message detail views — modeled after
+        the Call Event Logging (CEL) module.
+    </description>
+    <category>Reports</category>
+    <supported>
+        <version>16</version>
+    </supported>
+    <depends>
+        <module>framework</module>
+    </depends>
+    <menuitems>
+        <smslog>SMS Event Log</smslog>
+    </menuitems>
+</module>
